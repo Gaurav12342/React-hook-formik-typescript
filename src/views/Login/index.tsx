@@ -1,5 +1,5 @@
 import React, { FC } from 'react'
-import SimpleForm from '../component/SimpleForm';
+import SimpleForm from '../../views/Login/SimpleForm'
 
 const RootComponent: FC = () => {
   return (

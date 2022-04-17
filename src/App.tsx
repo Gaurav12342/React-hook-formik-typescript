@@ -1,14 +1,11 @@
 import React, { FC } from 'react';
 import './App.css';
-import RootComponent from './component/index';
+import RootComponent from './views/Login/index';
 
 const App: FC = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Root Component</h1>
-        <RootComponent />
-      </header>
+      <RootComponent />
     </div>
   );
 }
